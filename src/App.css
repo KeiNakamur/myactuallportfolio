@@ -1,0 +1,430 @@
+header{
+    width: 100%;
+    height: 55px;
+    background-color: #333;
+    border-bottom: 1px solid #666;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .title {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+header .title a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+
+header .title a:hover {
+    color: rgba(102, 102, 102, 0.567);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    margin-right: 60px;
+    color: #fff;
+    font-weight: 400;
+}
+
+header nav ul li a:hover {
+    color: rgba(102, 102, 102, 0.567);
+}
+
+.catimage img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.me {
+    height: 1000px;
+}
+
+.me .me-information {
+    text-align: center;
+}
+
+.me .me-information h2 {
+    margin-top: 50px;
+}
+
+.text {
+    margin-top: 30px;
+    white-space: pre-wrap;
+}
+
+.subtitle {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333;
+}
+
+.websites {
+    width:100%;
+    height: 100px;
+}
+
+.created-main {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.created-lists {
+    list-style: none;
+}
+
+.created-lists-container {
+    border: 1px solid #333;
+    height: 200px;
+    width: 300px;
+}
+
+.created-lists-container:hover {
+    background-color: rgba(51, 51, 51, 0.724);
+    color: white;
+    box-shadow: 5px 5px 5px grey;
+    border: none;
+    
+}
+
+.created-lists-container .created-title li {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.created-lists-container .created-description li {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.created-lists-container .created-url li {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.about {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.about .about-title {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.about-my-career {
+    font-weight: 400;
+    font-size: 20px;
+    white-space: pre-wrap;
+    margin-top: 50px;
+}
+
+.loading {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.skills-main{
+    height: 1300px;
+}
+
+.skills-main .skills-title {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.skills-main .skills-title .skills-content img {
+    width: 200px;
+    height: 130px;
+} 
+
+.skills-html {
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.skills-html-subtitle {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.skills-html-description {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 430px;
+    font-weight: 400;
+}
+
+.skills-javascript img {
+    width: 200px;
+    height: 140px;
+}
+
+.skills-javascript {
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.skills-javascript-subtitle {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.skills-javascript-description {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 430px;
+    font-weight: 400;
+}
+
+.skills-react {
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.skills-react-subtitle {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.skills-react-description {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 430px;
+    font-weight: 400;
+}
+
+.skills-kotlin {
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.skills-kotlin-subtitle {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.skills-kotlin-description {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 430px;
+    font-weight: 400;
+}
+
+.skills-flutter {
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.skills-flutter-subtitle {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.skills-flutter-description {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 430px;
+    font-weight: 400;
+}
+
+.skills-bubble {
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.skills-bubble-subtitle {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.skills-bubble-description {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 430px;
+    font-weight: 400;
+}
+
+.about {
+    height: 1100px;
+}
+
+
+.aboutme-right ul {
+    list-style: none;
+}
+
+.aboutme-information {
+    display: inline-block;
+}
+
+.birthday {
+    display: flex;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.birthday .birthday-a {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.from {
+    margin-top: 5px;
+    display: flex;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.from .from-a {
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.whereami {
+    display: flex;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.whereami .whereami-a {
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.email {
+    display: flex;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.email .email-a {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.language {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.language .language-a {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 7px;
+    display: flex;
+}
+
+.language-aa {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.language .language-b {
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+}
+
+.language-bb{
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+hr {
+    background-color: #000;
+}
+
+.achievement-main {
+    font-weight: 600;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.hobby {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.hobby-a {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.hobby-aa {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.about-my-career-text {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.gakureki {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.gakureki-a {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.aboutme img {
+    display: block;
+    width: 270px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: -5px;
+}
